@@ -56,7 +56,7 @@ struct HomeView: View {
         .padding(.top, 50)
     }
     private var profileGrid: some View {
-        LazyVGrid(columns: columns, spacing: 30) {
+        LazyVGrid(columns: columns, spacing: 20) {
             ForEach(profiles) { profile in
                 // This grid automatically uses the 'profiles' array you created above.
                 // If you see errors here, it means Step 2 is not finished yet.
@@ -66,7 +66,7 @@ struct HomeView: View {
                 .buttonStyle(.plain)
             }
         }
-        .padding(.horizontal)
+        .padding(.horizontal, 80) 
     }
 }
 
