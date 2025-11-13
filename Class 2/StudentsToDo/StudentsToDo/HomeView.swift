@@ -89,7 +89,7 @@ struct ProfileCard: View {
         .padding()
         .background(Color(.secondarySystemGroupedBackground))
     }
-    .clipShape(RoundedRectangle(cornerRadius: 20))
+    .clipShape(RoundedRectangle(cornerRadius: 15))
     .shadow(color: .black.opacity(0.1), radius: 10, x: 0, y: 5)
     .overlay(
         RoundedRectangle(cornerRadius: 20)
